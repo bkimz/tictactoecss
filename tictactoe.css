@@ -1,0 +1,34 @@
+/*row 	td 		td bl-br 		td
+
+
+  row 	td bt-bb		td bl-br bt-bb		td bt-bb
+
+
+  row 	td 		td bl-br		td
+
+
+*/
+h1{
+	text-align: center;
+}
+
+table{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+td{
+	width: 100px;
+	height: 100px;
+}
+
+.midCol{
+	border-left: solid black 2px;
+	border-right: solid black 2px;
+}
+#midRow > td{
+	
+	border-bottom: solid black 2px;
+	border-top: solid black 2px;
+
+}
